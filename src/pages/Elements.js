@@ -2,12 +2,12 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/data-chart.jpeg';
+import pic1 from '../assets/images/data-analysis.jpeg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
-import banner from '../assets/images/banner.jpeg';
+import banner from '../assets/images/main_banner.jpeg';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
