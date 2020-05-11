@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/logo_white.png',
+  manifestIcon: 'src/assets/img/vr-element_white.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'VR Toby',
   subHeading: 'Text Processing & Prediction Through Machine Learning',
