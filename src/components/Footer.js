@@ -5,13 +5,10 @@ export default function Footer() {
     <footer id="footer">
       <ul className="icons">
         {config.socialLinks.map(social => {
-          const { style, icon, name, url } = social;
+          const { style, icon, name, url, label } = social;
           return (
-            <li key={url}>
               <a href={url} className={`icon ${style} ${icon}`}>
-                <span className="label">{name}</span>
               </a>
-            </li>
           );
         })}
       </ul>

@@ -1527,6 +1527,7 @@
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
 						padding: 0 1.5em;
+						margin-top: 1em;
 						text-transform: uppercase;
 
 						&.menuToggle {
@@ -1931,3 +1932,22 @@
 			}
 		}
 	}
+
+#header-logo {
+	img {
+		height: 2.5em;
+		padding: 0 1em;
+		margin-top: 1em;
+	}
+	a {
+		border-bottom: none;
+	}
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.margin-left {
+	margin-left: 0.5em;
+}
