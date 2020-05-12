@@ -22,5 +22,5 @@ module.exports = {
   contactInfo: {
     email: 'contact@softstackfactory.com',
     emailUrl: 'mailto:contact@softstackfactory.com',
-  }
+  },
 };

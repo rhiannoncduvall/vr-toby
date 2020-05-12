@@ -1,9 +1,7 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
-
+import Team from '../components/Team';
 import pic1 from '../assets/images/data-analysis.jpeg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -41,23 +39,23 @@ const IndexPage = () => (
             We bridge the gap between NLP research and the industry. With our open-source software, we enable developers to use the latest language models & transfer learning techniques for their individual tasks. Our additional features & services help enterprises to build, run and maintain production-ready NLP applications.
           </p>
         </header>
-        {/* <ul className="icons major">
+        <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
+            <span className="icon fa-file major style1">
               <span className="label">Lorem</span>
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
+            <span className="icon fa-code solid major style2">
               <span className="label">Ipsum</span>
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
+            <span className="icon fa-lightbulb major style1">
               <span className="label">Dolor</span>
             </span>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </section>
 
@@ -73,18 +71,18 @@ const IndexPage = () => (
           <p>
             We bring you up to speed with latest developments in NLP. For executives we focus on concepts, business opportunities, market structures and integration approaches. 
           </p>
-          <ul className="icons major">
+          <ul id="services-icon-list" className="icons major">
             <li>
-              <span className="icon solid fa-gem  style1">
-                <span className="label">Lorem</span>
+              <span className="icon solid fa-lightbulb  style1">
+                <span className="label">Use case discovery</span>
               </span>
               <span className="margin-left">
                 Use case discovery
               </span>
             </li>
             <li>
-              <span className="icon solid fa-heart style1">
-                <span className="label">Ipsum</span>
+              <span className="icon solid fa-file style1">
+                <span className="label">Proof of concept</span>
               </span>
               <span className="margin-left">
                 Proof of concept
@@ -92,7 +90,7 @@ const IndexPage = () => (
             </li>
             <li>
               <span className="icon solid fa-code style1">
-                <span className="label">Dolor</span>
+                <span className="label">Productization</span>
               </span>
               <span className="margin-left">
                 Productization
@@ -167,18 +165,18 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
+    </section>
+    <section id="two" className="wrapper alt style1">
+      <section className="spotlight" id="our-team-section">
+        <div className="content" id="our-team-content">
           <h2>
             Our Team
           </h2>
-          <p>
+          {/* <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
             imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+          </p> */}
+          <Team></Team>
         </div>
       </section>
     </section>

@@ -1951,3 +1951,48 @@
 .margin-left {
 	margin-left: 0.5em;
 }
+
+#our-team-section {
+	flex-direction: column;
+	align-items: center;
+}
+
+#our-team-content {
+	width: 100%;
+	max-width: 80em;
+
+	h2 {
+		text-align: center;
+	}
+}
+
+.team-list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	padding: 0;
+
+	li {
+		max-width: 15em;
+		width: 100%;
+		flex-grow: 1;
+		padding: 1em;
+	}
+
+	img {
+		width: 100px;
+		border-radius: 50%;
+		margin-bottom: 0.7em;
+	}
+
+	span {
+		font-size: 0.9em;
+		margin-bottom: 0;
+	}
+}
+
+#services-icon-list {
+	margin-bottom: 0;
+}
