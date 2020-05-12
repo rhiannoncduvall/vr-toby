@@ -11,9 +11,11 @@ export default function SideBar({ fullMenu }) {
       <h2 id="header-logo">
         <Link to="/"><img src={logo}></img></Link>
       </h2>
+  {/* Comment out to disable menu */}
       {/* <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>
         <Nav onMenuToggle={() => toggleHeader(!headerOpen)} />
       </div> */}
+  {/* Comment out to disable menu */}
     </header>
   );
 }
