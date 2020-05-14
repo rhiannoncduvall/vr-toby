@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/vr-element_white.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'VR Toby',
-  subHeading: 'Text Processing & Prediction Through Machine Learning',
+  subHeading: 'Intelligent analysis of text that transforms data into actionable insights',
   // social
   socialLinks: [
     {
