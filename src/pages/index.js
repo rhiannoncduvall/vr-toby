@@ -69,9 +69,13 @@ const IndexPage = () => (
             Our Services
           </h2>
           <p>
-            We bring you up to speed with latest developments in NLP. For executives we focus on concepts, business opportunities, market structures and integration approaches. 
+            We assist with discovering how your textual data can be utilized to its full potential.
+            <br /><br />
+            We determine proof of concept viability by applying NLP technologies to your real data.
+            <br /><br />
+            We transform proof of concepts into suitable products that integrate with the tech architecture of your organization.
           </p>
-          <ul id="services-icon-list" className="icons major">
+          {/* <ul id="services-icon-list" className="icons major">
             <li>
               <span className="icon solid fa-lightbulb  style1">
                 <span className="label">Use case discovery</span>
@@ -96,7 +100,7 @@ const IndexPage = () => (
                 Productization
               </span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
 
