@@ -36,7 +36,7 @@ const IndexPage = () => (
             What we do
           </h2>
           <p>
-            We bridge the gap between NLP research and the industry. With our open-source software, we enable developers to use the latest language models & transfer learning techniques for their individual tasks. Our additional features & services help enterprises to build, run and maintain production-ready NLP applications.
+            Using state-of-the-art NLP technology driven by transfer learning, we help organizations achieve deeper insights and better understanding from their textual data. We work with our clients to create applications that transform their data into viable solutions
           </p>
         </header>
         <ul className="icons major">
