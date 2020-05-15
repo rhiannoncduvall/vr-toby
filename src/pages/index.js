@@ -189,8 +189,10 @@ const IndexPage = () => (
             About Us
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            We are a team of tech enthusiasts that came together because of our time together at SoftStack Factory, a non-profit coding school and incubator.
+          </p>
+          <p>
+            We started VR Toby to share our passion for Natural Language Processing and provide solutions for everyday problems.
           </p>
         </div>
       </section>
