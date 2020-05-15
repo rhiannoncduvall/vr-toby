@@ -169,7 +169,7 @@ const IndexPage = () => (
           <li className="icon solid fa-lightbulb">
             <h3>Content Extraction</h3>
             <p>
-              Detect & extract structured data like products, proteins or liability sums from your documents with customized entity recognition.
+              Automatically detect and extract from structured data by identifying entities, relations, and events.
             </p>
           </li>
           <li className="icon solid fa-comment">
