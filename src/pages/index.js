@@ -142,7 +142,7 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-file">
+          <li className="icon solid fa-file">
             <h3>Categorization</h3>
             <p>
               Analyze and categorize high-volume incoming document streams.
@@ -160,7 +160,7 @@ const IndexPage = () => (
               Intelligent context-based document search and retrieval.
             </p>
           </li>
-          <li className="icon solid fa-comment">
+          <li className="icon solid fa-info">
             <h3>Topic Extraction</h3>
             <p>
               Detect the key topics across large corpora of documents.
@@ -172,7 +172,7 @@ const IndexPage = () => (
               Detect & extract structured data like products, proteins or liability sums from your documents with customized entity recognition.
             </p>
           </li>
-          <li className="icon fa-comment">
+          <li className="icon solid fa-comment">
             <h3>Response System</h3>
             <p>
               Interactive bots and automated responses to emails and response forms.
