@@ -7,7 +7,6 @@ export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
-      {/* TODO add acronym on hover */}
       <h2 id="header-logo">
         <Link to="/"><img alt="Virtual Reasoning of Textual Observations that Benefit You" title="Virtual Reasoning of Textual Observations that Benefit You" src={logo}></img></Link>
       </h2>
