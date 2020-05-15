@@ -41,6 +41,7 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
+            {/* TODO change labels */}
             <span className="icon fa-file major style1">
               <span className="label">Lorem</span>
             </span>
@@ -144,7 +145,7 @@ const IndexPage = () => (
           <li className="icon fa-file">
             <h3>Categorization</h3>
             <p>
-              Automatically detect and tag different types of documents.
+              Analyze and categorize high-volume incoming document streams.
             </p>
           </li>
           <li className="icon solid fa-filter">
