@@ -1995,4 +1995,15 @@
 
 #services-icon-list {
 	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+
+	li {
+		display: flex;
+		justify-content: baseline
+	}
+	span.icon {
+		text-align: center;
+		width: 50px;
+	}
 }

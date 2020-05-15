@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
-import logo from '../assets/images/logo_silver_small.png';
+import logo from '../assets/images/logo_silver1.png';
 
 export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
