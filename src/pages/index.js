@@ -109,9 +109,9 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>What NLP Can Do For You</h2>
+          <h2>NLP Applications</h2>
           <p>
-            No magic. Just cutting-edge NLP driven by Transfer Learning.
+            See how today’s cutting edge NLP technology can drive innovation for you
           </p>
         </header>
         <ul className="features">
