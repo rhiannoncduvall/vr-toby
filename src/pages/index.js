@@ -88,7 +88,7 @@ const IndexPage = () => (
           <ul id="services-icon-list" className="icons">
             {/* TODO change icons */}
             <li>
-              <span className="icon solid fa-lightbulb style1">
+              <span className="icon solid fa-chart-line style1">
                 <span className="label">Predictions</span>
               </span>
               <span className="margin-left">
@@ -96,7 +96,7 @@ const IndexPage = () => (
               </span>
             </li>
             <li>
-              <span className="icon solid fa-file style1">
+              <span className="icon solid fa-user-friends style1">
                 <span className="label">Customer Service</span>
               </span>
               <span className="margin-left">

@@ -18,12 +18,12 @@ export default function Team() {
     },
     {
       name: 'Steve Biafore',
-      title: 'Analytics Advisor, Co-Founder',
+      title: 'Analytics Advisor',
       imgUrl: steve_photo,     
     },
     {
       name: 'Michael Martin',
-      title: 'Problem Solver, HR',
+      title: 'Senior Data Engineer, Problem Solver',
       imgUrl: michael_photo,
     },
   ]
