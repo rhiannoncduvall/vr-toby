@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import Team from '../components/Team';
-import pic1 from '../assets/images/data-analysis.jpeg';
+import pic1 from '../assets/images/data-analysis.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
@@ -103,7 +103,49 @@ const IndexPage = () => (
           </ul> */}
         </div>
       </section>
-
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic1} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Use Cases
+          </h2>
+          <p>
+            We assist with discovering how your textual data can be utilized to its full potential.
+            <br /><br />
+            We determine proof of concept viability by applying NLP technologies to your real data.
+            <br /><br />
+            We transform proof of concepts into suitable products that integrate with the tech architecture of your organization.
+          </p>
+          {/* <ul id="services-icon-list" className="icons major">
+            <li>
+              <span className="icon solid fa-lightbulb  style1">
+                <span className="label">Use case discovery</span>
+              </span>
+              <span className="margin-left">
+                Use case discovery
+              </span>
+            </li>
+            <li>
+              <span className="icon solid fa-file style1">
+                <span className="label">Proof of concept</span>
+              </span>
+              <span className="margin-left">
+                Proof of concept
+              </span>
+            </li>
+            <li>
+              <span className="icon solid fa-code style1">
+                <span className="label">Productization</span>
+              </span>
+              <span className="margin-left">
+                Productization
+              </span>
+            </li>
+          </ul> */}
+        </div>
+      </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
@@ -116,7 +158,7 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon fa-file">
-            <h3>Document Classification</h3>
+            <h3>Categorization</h3>
             <p>
               Automatically detect and tag different types of documents.
             </p>
@@ -124,13 +166,13 @@ const IndexPage = () => (
           <li className="icon solid fa-filter">
             <h3>Summarization</h3>
             <p>
-              Condense texts to their absolute essence.
+              Reduce documents to the most necessary information.
             </p>
           </li>
           <li className="icon solid fa-lightbulb">
-            <h3>Cognitive Search</h3>
+            <h3>Contextual Search</h3>
             <p>
-              Search for content not just for keywords.
+              Intelligent context-based document search and retrieval.
             </p>
           </li>
           <li className="icon solid fa-comment">
