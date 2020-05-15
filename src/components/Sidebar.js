@@ -9,7 +9,7 @@ export default function SideBar({ fullMenu }) {
     <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
       {/* TODO add acronym on hover */}
       <h2 id="header-logo">
-        <Link to="/"><img src={logo}></img></Link>
+        <Link to="/"><img alt="Virtual Reasoning of Textual Observations that Benefit You" title="Virtual Reasoning of Textual Observations that Benefit You" src={logo}></img></Link>
       </h2>
   {/* Comment out to disable menu */}
       {/* <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>

@@ -41,19 +41,18 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
-            {/* TODO change labels */}
             <span className="icon fa-file major style1">
-              <span className="label">Lorem</span>
+              <span className="label">Document</span>
             </span>
           </li>
           <li>
             <span className="icon fa-code solid major style2">
-              <span className="label">Ipsum</span>
+              <span className="label">Code</span>
             </span>
           </li>
           <li>
             <span className="icon fa-lightbulb major style1">
-              <span className="label">Dolor</span>
+              <span className="label">Idea</span>
             </span>
           </li>
         </ul>
@@ -87,7 +86,6 @@ const IndexPage = () => (
             Use Cases
           </h2>
           <ul id="services-icon-list" className="icons">
-            {/* TODO change icons */}
             <li>
               <span className="icon solid fa-chart-line style1">
                 <span className="label">Predictions</span>
@@ -203,10 +201,6 @@ const IndexPage = () => (
           <h2>
             Our Team
           </h2>
-          {/* <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p> */}
           <Team></Team>
         </div>
       </section>
