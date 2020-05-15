@@ -105,7 +105,7 @@ const IndexPage = () => (
               </span>
             </li>
             <li>
-              <span className="icon solid fa-code style1">
+              <span className="icon solid fa-globe style1">
                 <span className="label">Reputation Monitoring</span>
               </span>
               <span className="margin-left">
@@ -121,7 +121,7 @@ const IndexPage = () => (
               </span>
             </li>
             <li>
-              <span className="icon solid fa-file style1">
+              <span className="icon solid fa-chart-pie style1">
                 <span className="label">Market Intelligence</span>
               </span>
               <span className="margin-left">
@@ -154,7 +154,7 @@ const IndexPage = () => (
               Reduce documents to the most necessary information.
             </p>
           </li>
-          <li className="icon solid fa-lightbulb">
+          <li className="icon solid fa-search">
             <h3>Contextual Search</h3>
             <p>
               Intelligent context-based document search and retrieval.
@@ -166,16 +166,16 @@ const IndexPage = () => (
               Detect the key topics across large corpora of documents.
             </p>
           </li>
-          <li className="icon fa-caret-square-right">
+          <li className="icon solid fa-lightbulb">
             <h3>Content Extraction</h3>
             <p>
               Detect & extract structured data like products, proteins or liability sums from your documents with customized entity recognition.
             </p>
           </li>
-          <li className="icon fa-question-circle">
-            <h3>Question Answering</h3>
+          <li className="icon fa-comment">
+            <h3>Response System</h3>
             <p>
-              Automatically reply to frequently occurring questions.
+              Interactive bots and automated responses to emails and response forms.
             </p>
           </li>
         </ul>
