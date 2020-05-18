@@ -34,7 +34,7 @@ export default function Team() {
           const { name, title, imgUrl } = teamMember;
           return (
             <li>
-              <img src={imgUrl}></img>
+              <img src={imgUrl} alt={name}></img>
               <h6>{name}</h6>
               <span>{title}</span>
             </li>
